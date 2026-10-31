@@ -1,0 +1,32 @@
+# Dipendenze
+node_modules/
+
+# Build e file generati
+dist/
+dist-ssr/
+coverage/
+
+# Log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Variabili d'ambiente locali e segreti
+.env
+.env.*
+!.env.example
+
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# Configurazioni locali degli editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Cache e file temporanei
+*.local
+*.tsbuildinfo
